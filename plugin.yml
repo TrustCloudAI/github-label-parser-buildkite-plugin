@@ -1,2 +1,9 @@
-name: Github Pull Request Label Parser
-description: Parses Github labels applied to a pull request
+# name: Github Pull Request Label Parser
+# description: Parses Github labels applied to a pull request
+
+name: my-buildkite-plugin
+description: A simple Buildkite plugin example
+configuration:
+  env_var:
+    type: string
+    default: "default_value"
