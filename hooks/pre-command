@@ -2,7 +2,7 @@
 set -euo pipefail
 
 echo "This is from the pre command hook"
-
+echo "Is the plugin called?"
 echo "--- Verify node.js version"
 # node -v
 
