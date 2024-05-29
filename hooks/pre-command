@@ -5,5 +5,5 @@ echo "This is from the pre command hook"
 
 hash gh 2>/dev/null || {
   echo "-- Installing Github CLI"
-  apt update && apt install -y gh
+  apt update && apt install gh -y
 }
