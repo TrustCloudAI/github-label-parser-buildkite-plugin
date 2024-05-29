@@ -6,7 +6,7 @@ echo "Is the plugin called?"
 echo "--- Verify node.js version"
 # node -v
 
-hash gh 2>/dev/null || {
-  echo "-- Installing Github CLI"
-  apt update && apt install gh -y
-}
+# hash gh 2>/dev/null || {
+#   echo "-- Installing Github CLI"
+#   apt update && apt install gh -y
+# }
