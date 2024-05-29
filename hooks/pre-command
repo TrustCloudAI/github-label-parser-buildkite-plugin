@@ -3,4 +3,6 @@ set -euo pipefail
 
 echo "This is from the pre command hook"
 
-gh --help
+hash gh 2>/dev/null || {
+  echo "Github CLI not found
+}
